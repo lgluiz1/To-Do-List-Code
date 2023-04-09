@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List Code</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <main>
+    <div class="maincard">
+      <h1>Adicione uma tarefa</h1>
+      <div class="form__group field">
+        <input required="" placeholder="Name" class="form__field" id="input-text" type="input">
+        <label class="form__label" for="name"></label>
+      </div>
+      <button type="button" class="btn" id="add-button" onclick="newTarefa()">
+        <strong>Adiciona</strong>
+        <div id="container-stars">
+          <div id="stars"></div>
+        </div>
+        <div id="glow">
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </button>
+      <p class="vazio"></p>
+    </div>
+    <div class="lista">
+      <h1> Suas Tarefas </h1>      
+        <div class="tarefas">
+          <ul id="lista">
+           
+          </ul>
+        </div> 
+    </div>
+  </main>
+
+  <!-- Background animtion-->
+  <div class="background">
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
