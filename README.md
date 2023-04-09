@@ -18,12 +18,13 @@ Principais conceitos colocados em prática:
 #
 
 ### 💻 Versão desktop
-![laptop]()
+![laptop](https://user-images.githubusercontent.com/125038498/230752089-2e5def35-1030-4cd0-b789-f31fb01ff3e4.png)
+
 
 #
 
 ### 📱 Versão mobile
-![mobile]()
+![mobile](https://user-images.githubusercontent.com/125038498/230752121-a3c0940a-4606-416a-a294-40eed9080c99.png)
 
 
 #
